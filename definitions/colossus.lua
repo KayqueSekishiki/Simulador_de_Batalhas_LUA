@@ -1,7 +1,7 @@
 local colossus = {}
 
 colossus.name = "Colosso de aço nefasto"
-colossus.description = "Uma enorme criatura capaz de truçidas qualquer alma desavisada!"
+colossus.description = "Uma enorme criatura capaz de truçidar qualquer alma desavisada!"
 
 colossus.maxHealth = 50
 colossus.health = 50

@@ -53,5 +53,11 @@ function utils.printCreature(creature)
     print("|    Velocidade:   " .. utils.getProgressBar(creature.speed))
 end
 
+function utils.ask()
+    io.write("> ")
+    local answer = io.read("*n")
+    return answer
+end
+
 
 return utils

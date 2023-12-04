@@ -50,3 +50,20 @@ end
         break
     end
 end
+
+if player.health <= 0 then
+    print()
+    print("------------------------------------------------------------------")
+    print()
+    print("😭")
+    print(string.format("%s não foi capaz de derrotar %s", player.name, boss.name))
+    print("Quem sabe outro dia...")
+
+ elseif boss.health <= 0 then
+    print()
+    print("------------------------------------------------------------------")
+    print()
+    print("🥳")
+    print(string.format("O reino está a salvo do %s, graças a %s!", boss.name, player.name))
+    print("Parabéns!!!") 
+end

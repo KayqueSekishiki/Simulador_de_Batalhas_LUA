@@ -5,9 +5,9 @@ colossus.description = "Uma enorme criatura capaz de truçidar qualquer alma des
 
 colossus.maxHealth = 20
 colossus.health = 20
-colossus.attack = 4
+colossus.attack = 6
 colossus.defense = 8
-colossus.speed = 1
+colossus.speed = 2
 
 
 return colossus
